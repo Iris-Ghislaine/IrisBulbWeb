@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+/* @media only screen and (max-width: 600px) { */
+  body {
+    background-color:rgb(255, 255, 255);
+  }
+  /* } */
+  .container {
+    padding: 60px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(24, 21, 51);
+    left: 0;
+  }
+    
+  
+  .nav_bar {
+    width: 100%;
+    background-color:rgb(222, 211, 211);
+    padding: 30px;
+    background-color: rgb(24, 21, 51);
+    
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 200px;
+    /* z-index: 100; */
+    /* background-color: rgb(111, 123, 177); */
+  }
+  .logo {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    padding-right: 10%;
+    
+  }
+  span {
+    color:  rgb(255, 255, 255);
+
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  a {
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+  }
+  button {
+    padding: 10px 25px;
+    border-radius: 30px;
+    border-color:  rgb(52, 35, 13);
+    background-color: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(1, 1, 1);
+    background-color:  rgb(255, 255, 255);
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+  }
+  a:hover {
+    color:rgb(255, 255, 255);
+  }
+  .content {
+    /* position: absolute; */
+    /* top: 50%; */
+  
+    /* transform: translateY(-50%); */
+    margin-top: 20px;
+    padding-left: 130px;
+
+  }
+
+  .hero-content {
+    text-align: center;
+    color:rgb(255, 255, 255);
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  
+  h3 {
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    padding-right: 55%;
+    /* margin-bottom: 50px; */
+    font-weight: lighter;
+  }
+  h1 {
+    color:rgb(255, 255, 255);
+    margin: 20px 0px 20px;
+    font-size: 40px;
+  }
+  h4 {
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+  .image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 3%;
+    /* border: 5px solid rgb(42, 175, 169); */
+    box-shadow: 20px;
+    margin-left: 30%;
+  }
+  .image {
+    width: 50%;
+  }
+  .cv {
+    border: 2px solid;
+  }
+
+  button{
+    padding-top: 10px;
+  }
+  
+
+  p {
+    padding-top: 20px;
+    color: rgb(1, 1, 1);
+  }
+  
+  
+  .text {
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(1, 1, 1);
+  }
+  .words {
+    margin: 25px 30px;
+  }
+  .experience {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    width: 100%;
+  
+  }
+  .Experience_title {
+    margin: 20px 0;
+    padding-left: 42%;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(1, 1, 1);
+  }
+    .Ambition-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        background-color: #dcd6d6;
+    }
+  .Ambition-section p {
+  /* margin: 20px 0; */
+    
+    
+    padding: 120px;
+    width: 70%;
+  }
+  .Ambition {
+    /* margin: 20px ; */
+    padding: 35px;
+    padding-left: 40%;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(1, 1, 1);
+  }
+  
+  .call {
+    margin: 20px;
+  
+  padding: 30px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 10%;
+    
+    /* margin-top: 15px; */
+
+  }
+
+  .call-content{
+    background-color: #4285F4; /* Blue background color */
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    column-gap: 10px;
+  }
+  h5{
+    justify-content: center;
+    align-items: center;
+  }
+  .sign{
+    background: #4285f4;; /* Darker blue for button */
+    color: white;
+    border:1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  
+  
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 15%;
+  }
+  
+  .card {
+    width:150px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px;
+    flex-wrap: wrap;
+ 
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  .footer {
+    left: 0;
+    bottom: 0;
+    background-color: rgb(24, 21, 51);
+    text-align: center;
+    padding:2px;
+    color: rgb(245, 243, 240);
+    position: fixed;
+    width: 100%;
+  }
+  h4{
+    color:white;
+    padding-top: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .container{
+      display: block;
+    }
+    h4{
+      font-size: 10px;
+      padding-top: 10px;
+    }
+    nav{
+      column-gap: 0;
+    }
+    .content{
+      padding: 0;
+    }
+    h1{
+      margin: 0;
+    }
+    button{
+      margin: 5px;
+    }
+    .image{
+      margin-top: 10px;
+    }
+    .Experience_title{
+      padding: 0;
+      text-align: center;
+    }
+    .card-container{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+    .Ambition{
+      padding: 100px 0 10px;
+      text-align: center;
+    }
+    .Ambition-section p{
+      padding: 30px 0;
+    }
+    .call-content{
+      width: 100%;
+    }
+    h3{
+      padding: 0;
+    }
+    h5{
+      padding: 0;
+      margin-bottom: 20px;
+      width: 60%;
+    }
+    .sign{
+      margin: 0;
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 1023px){
+    .container{
+      display: block;
+    }
+    h4{
+      font-size: 10px;
+      padding-top: 10px;
+    }
+    nav{
+      column-gap: 0;
+    }
+    .content{
+      padding: 0;
+    }
+    h1{
+      margin: 0;
+    }
+    button{
+      margin: 5px;
+    }
+    .image{
+      margin-top: 10px;
+    }
+    .Experience_title{
+      padding: 0;
+      text-align: center;
+    }
+    .card-container{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+    .Ambition{
+      padding: 100px 0 10px;
+      text-align: center;
+    }
+    .Ambition-section p{
+      padding: 30px 0;
+    }
+    .call-content{
+      width: 100%;
+    }
+    h5{
+      width: 70%;
+    }
+    .sign{
+      font-size: 10px;
+      margin-left: 10px;
+    }
+  }
